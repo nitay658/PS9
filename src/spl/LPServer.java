@@ -8,10 +8,12 @@ class LPServer {
 
     public static void main(String[] args) throws IOException
     {
+
+
         ServerSocket lpServerSocket = null;
 
         // Get port
-        int port = 3333;
+        int port = 33335;
 
         // Listen on port
         try {
